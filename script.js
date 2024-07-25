@@ -1,4 +1,7 @@
 const fileInput = document.getElementById('fileInput');
+dropZone.addEventListener('click', () => fileInput.click());
+dropZone.addEventListener('dragover', handleDragOver);
+dropZone.addEventListener('drop', handleDrop);
 
 fileInput.addEventListener('change', handleFileSelect);
 
