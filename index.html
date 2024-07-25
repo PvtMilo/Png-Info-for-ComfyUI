@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNG Metadata Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PNG Metadata Viewer</h1>
+    <div id="dropZone">
+        <p>Drag and drop a PNG file here or click to select</p>
+        <input type="file" id="fileInput" accept="image/png">
+    </div>
+    <div id="imageContainer">
+        <img id="selectedImage" src="" alt="Selected PNG" style="display: none;">
+    </div>
+    <div id="metadata"></div>
+    <script src="script.js"></script>
+</body>
+</html>

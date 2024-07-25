@@ -1,0 +1,50 @@
+:root {
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(240, 217, 210);
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px;
+}
+
+#imageContainer {
+    margin-top: 20px;
+}
+
+#selectedImage {
+    max-width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#metadata {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+#dropZone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#dropZone:hover {
+    background-color: #f0f0f0;
+}
+
+#fileInput {
+    display: none;
+}
